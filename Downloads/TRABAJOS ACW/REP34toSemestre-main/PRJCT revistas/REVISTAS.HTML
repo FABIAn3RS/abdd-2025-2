@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/EstilosInx.CSS">
+
+
+</head>
+
+
+
+
+
+
+<body>
+
+    <header>
+        <div name="encabezado">
+
+            <img src="ASSETS/LOGO-ULEAM-VERTICAL (1).png" alt="" id="logoul" width="150px" height="150px">
+
+        </div>
+
+
+        <div name="navinicio" id="navegacion">
+            <a href="INDEX.HTML">Inicio</a>
+            <a href="REVISTAS.HTML">Revistas</a>
+            <a href="EnvioArt.html">Enviar Artículo</a>
+            <a href="USUARIO.HTML">Mi Cuenta</a>
+
+        </div>
+
+        <br size="10px">
+        <br size="10px">
+
+    </header>
+
+
+
+    <main>
+
+
+
+        <div>
+
+            <form action="" onsubmit="buscarRevistas(); return false;">
+
+                <input type="search" id="RevBuscador" placeholder="Buscar Revista por Titulo" maxlength="100">
+
+                <select id="SelectorCategoria">
+                    <option value="Sin categoria"> Categoria</option>
+                    <option value="Ciencia">Ciencias</option>
+                    <option value="Sociales">Sociales</option>
+                    <option value="Tecnología">Tecnología</option>
+                    <option value="Arte">Arte</option>
+                    <option value="Salud">Salud</option>
+                    <option value="Historia">Historia</option>
+                    <option value="Literatura">Literatura</option>
+
+                </select>
+
+                <button type="submit">Buscar</button>
+
+            </form>
+
+        </div>
+
+        <div class="grid" id="contenedorResultados">
+            <!-- Resultados de la búsqueda se mostrarán aquí -->
+        </div>
+
+    </main>
+    <footer>
+
+        <p>Revistas Uleam</p>
+        <img src="ASSETS/" alt="">
+        <H5>Contacto</H5>
+        <p>Av. Circunvalación Vía a San Mateo</p>
+        <p>Correo electrónico : incidencias.diit@uleam.edu.ec</p>
+
+
+    </footer>
+
+
+</body>
+
+<script src="JS/REVISTAS.JS"></script>
+</script>
+
+</html>

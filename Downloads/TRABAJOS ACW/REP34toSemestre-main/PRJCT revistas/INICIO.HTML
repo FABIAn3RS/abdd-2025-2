@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/EstilosInx.CSS">
+
+</head>
+
+<body>
+
+    <header>
+        <div name="encabezado">
+
+            <img src="ASSETS/LOGO-ULEAM-VERTICAL (1).png" alt="" id="logoul" width="150px" height="150px">
+
+        </div>
+
+
+    </header>
+
+    <main>
+
+        <div name="cuerpo">
+
+            <h1>BIENVENIDO A LA UNIVERSIDAD LAICA ELOY ALFARO DE MANABI</h1>
+
+            <h2>INGRESA TUS DATOS PARA INICIAR SESION</h2>
+
+            <form action="" onsubmit="validarcredenciales();return false">
+
+                <label for="correo">CORREO:</label>
+                <input type="text" id="correo" name="correo" maxlength="100" required><br><br>
+
+                <label for="contrasena">CONTRASEÑA:</label>
+                <input type="password" id="contrasena" name="contrasena" maxlength="100" required><br><br>
+
+                <input type="submit" value="INICIAR SESION">
+
+            </form>
+            <br><br>
+
+            <button onclick=volverinico()>Volver</button>
+
+
+            <br><br>
+            <div><A href="REGISTRO.HTML">Registrarse</A></div>
+
+
+        </div>
+
+    </main>
+
+    <script src="JS/INICIOSESION.JS"></script>
+
+
+    <footer>
+
+        <p>Revistas Uleam</p>
+        <H5>Contacto</H5>
+        <p>Av. Circunvalación Vía a San Mateo</p>
+        <p>Correo electrónico : incidencias.diit@uleam.edu.ec</p>
+
+
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
